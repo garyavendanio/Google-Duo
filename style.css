@@ -35,36 +35,10 @@
 /* NOTA: Secciones separadas segun contenido _s1, _s2, _s3, etc.. */
 
 ._s1 {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: auto;
-}
-
-._s1 img {
-    width: 410px;
-    max-width: 100%;
-}
-
-._s1 p,
-._s1 h1 {
-    margin: 0;
     width: 100%;
 }
 
-._s1 h1 {
-    font-size: 2.5rem;
-    color: var(--color-blue);
-    font-weight: 500;
-}
-
-._s1 p {
-    font-size: 2.5rem;
-    font-weight: 100;
-    color: var(--color-gray);
-}
-
-._s1 p:nth-last-child(1) {
-    font-size: 1.2rem;
+._s1 img {
+    width: 620px;
+    max-width: 100%;
 }
