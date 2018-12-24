@@ -40,6 +40,10 @@
     font-size: 1.2rem;
 }
 
+._weight__100 {
+    font-weight: 100;
+}
+
 ._menu {
     padding: 20px 0;
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
@@ -94,10 +98,6 @@
     max-width: 100%;
 }
 
-._a p:nth-child(2) {
-    font-weight: 100;
-}
-
 
 /* section b */
 
@@ -111,10 +111,6 @@
 ._b img {
     width: 250px;
     max-width: 100%;
-}
-
-._b h1 {
-    font-weight: 100;
 }
 
 ._market img {
@@ -141,6 +137,53 @@
     grid-column: 2/3;
 }
 
+
+/* section e */
+
+._e {
+    grid-column: 1/2;
+}
+
+._e img {
+    width: 580px;
+    max-width: 100%;
+}
+
+
+/* section f */
+
+._f {
+    grid-column: 2/3;
+}
+
+
+/* section g */
+
+._g {
+    grid-column: 1/2;
+}
+
+._market ._flex img {
+    width: 28px;
+    height: 28px;
+}
+
+._market a {
+    text-decoration: none;
+}
+
+
+/* section h */
+
+._h {
+    grid-column: 2/3;
+}
+
+._h img {
+    width: 580px;
+    max-width: 100%;
+}
+
 @media screen and (max-width: 768px) {
     ._grid {
         grid-template-columns: repeat(2, 1fr);
@@ -158,6 +201,22 @@
         grid-row: span 2;
     }
     ._d {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    ._e {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    ._f {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    ._g {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    ._h {
         grid-column: span 2;
         grid-row: span 2;
     }
