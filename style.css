@@ -184,6 +184,37 @@
     max-width: 100%;
 }
 
+
+/* section i */
+
+._i {
+    grid-column: span 2;
+    grid-row: span 2;
+    background: var(--color-blue);
+}
+
+
+/* section j */
+
+._j {
+    grid-column: span 2;
+    grid-row: span 2;
+    background: var(--color-blue);
+}
+
+
+/* section k */
+
+._k {
+    grid-column: span 2;
+    grid-row: span 2;
+    font-size: .8rem;
+}
+
+._k span {
+    padding: 25px 15px;
+}
+
 @media screen and (max-width: 768px) {
     ._grid {
         grid-template-columns: repeat(2, 1fr);
