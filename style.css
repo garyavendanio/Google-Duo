@@ -65,6 +65,21 @@
     color: inherit;
 }
 
+._margin__x {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+._margin__y {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+._bg__blue {
+    background: var(--color-blue);
+    color: var(--color-light);
+}
+
 
 /* NOTA: contenido ajustado a las dimenciones del navegador 
 *
@@ -80,7 +95,14 @@
 ._grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2px;
+}
+
+._grid__footer {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    padding: 4% 15%;
+    font-size: .8rem;
+    line-height: 22px;
 }
 
 
@@ -197,23 +219,67 @@
 /* section j */
 
 ._j {
-    grid-column: span 2;
-    grid-row: span 2;
-    background: var(--color-blue);
-    justify-content: space-around;
+    grid-column: 1/2;
+}
+
+._j p {
+    height: 100%;
+    display: flex;
+    right: 10%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10%;
 }
 
 
 /* section k */
 
 ._k {
-    grid-column: span 2;
-    grid-row: span 2;
-    font-size: .8rem;
+    grid-column: 2/3;
 }
 
-._k span {
-    padding: 25px 15px;
+._k ._market img {
+    width: 27%;
+    max-width: 100%;
+}
+
+
+/* section l */
+
+._l {
+    grid-column: 1/2;
+    text-align: left;
+    margin: 5%;
+    top: 0;
+}
+
+._l h3 {
+    padding-left: 5%;
+}
+
+._l img {
+    width: 200px;
+    max-width: 100%;
+}
+
+
+/* section m */
+
+._m {
+    grid-column: 2/3;
+    margin: 5%;
+    width: 400px;
+    max-width: 100%;
+}
+
+
+/* section n */
+
+._n {
+    grid-column: 3/4;
+    margin: 5%;
+    width: 400px;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -251,6 +317,34 @@
     ._h {
         grid-column: span 2;
         grid-row: span 2;
+    }
+    ._j {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    ._j p {
+        height: 100%;
+        display: flex;
+        right: 0;
+        justify-content: center;
+        padding: 0;
+    }
+    ._k {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    ._k ._market a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ._margin__x {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    ._margin__y {
+        margin-left: 5px;
+        margin-right: 5px;
     }
     ._menu {
         padding: 20px;
