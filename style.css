@@ -215,6 +215,24 @@
     background: var(--color-blue);
 }
 
+._i iframe {
+    opacity: .7;
+}
+
+._i p:nth-last-child(1),
+._i p:nth-last-child(2) {
+    padding: 25px 0;
+}
+
+._i p {
+    position: absolute;
+    color: var(--color-light);
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    margin: auto;
+}
+
 
 /* section j */
 
