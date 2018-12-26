@@ -162,6 +162,8 @@
 
 ._d {
     grid-column: 2/3;
+    margin: auto;
+    width: 100%;
 }
 
 
