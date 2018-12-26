@@ -207,13 +207,24 @@
     align-items: center;
 }
 
-._market ._flex img {
-    width: 28px;
-    height: 28px;
+._g span a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
-._market a {
-    text-decoration: none;
+._g span p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+._g span img {
+    width: 28px;
+    height: 28px;
 }
 
 
