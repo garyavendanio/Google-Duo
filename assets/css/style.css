@@ -140,11 +140,6 @@
     max-width: 100%;
 }
 
-._market img {
-    width: 170px;
-    max-width: 100%;
-}
-
 
 /* section c */
 
@@ -330,6 +325,11 @@
 ._n {
     grid-column: 3/4;
     margin: 5%;
+    max-width: 100%;
+}
+
+._market img {
+    width: 170px;
     max-width: 100%;
 }
 
