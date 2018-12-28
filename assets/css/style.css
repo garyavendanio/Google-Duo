@@ -80,6 +80,11 @@
     color: var(--color-light);
 }
 
+._header ._a,
+._header ._b {
+    height: 90vh;
+}
+
 
 /* NOTA: contenido ajustado a las dimenciones del navegador 
 *
