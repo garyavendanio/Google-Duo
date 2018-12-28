@@ -336,7 +336,7 @@
     max-width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1080px) {
     ._grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -366,6 +366,7 @@
     ._e {
         grid-column: span 2;
         grid-row: span 2;
+        justify-content: center;
     }
     ._f {
         grid-column: span 2;
@@ -434,6 +435,6 @@
         text-align: center;
     }
     ._menu li {
-        padding: 17px;
+        padding: 17px 0;
     }
 }
