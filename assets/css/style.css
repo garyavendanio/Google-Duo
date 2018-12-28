@@ -32,6 +32,12 @@
     flex-flow: column;
 }
 
+._flex__space {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 ._size__2rem {
     font-size: 2.2rem;
 }
