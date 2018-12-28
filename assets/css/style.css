@@ -127,6 +127,10 @@
     max-width: 100%;
 }
 
+._a img:nth-last-child(3) {
+    padding-bottom: 70px;
+}
+
 
 /* section b */
 
