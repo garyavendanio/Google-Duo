@@ -85,9 +85,18 @@
     color: var(--color-light);
 }
 
+
+/* Cabecera 'Page Demostration' */
+
 ._header ._a,
 ._header ._b {
     height: 700px;
+}
+
+._header ._b {
+    padding: 0 50px;
+    margin: 0;
+    vertical-align: middle;
 }
 
 
@@ -148,8 +157,16 @@
 }
 
 ._b img {
-    width: 260px;
+    width: 280px;
     max-width: 100%;
+}
+
+._img__hqvideo img {
+    object-position: right;
+    bottom: 0;
+    right: 0;
+    padding: 0 2px !important;
+    margin: auto;
 }
 
 
