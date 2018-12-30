@@ -96,7 +96,6 @@
 ._header ._b {
     padding: 0 50px;
     margin: 0;
-    vertical-align: middle;
 }
 
 
@@ -161,11 +160,11 @@
     max-width: 100%;
 }
 
-._img__hqvideo img {
-    object-position: right;
+._img__hqvideo span img {
     bottom: 0;
     right: 0;
-    padding: 0 2px !important;
+    left: 12px;
+    padding: 0;
     margin: auto;
 }
 
