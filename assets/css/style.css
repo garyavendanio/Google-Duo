@@ -100,11 +100,6 @@
 *
 * ************************************************************** */
 
-._container {
-    width: 1080;
-    max-width: 100%;
-}
-
 ._grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
