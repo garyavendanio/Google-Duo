@@ -166,6 +166,18 @@
     margin-top: 30%;
 }
 
+._absolute img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto auto 50px auto;
+    fill: var(--color-light);
+    width: 40vw;
+    opacity: .3;
+    z-index: 1;
+    display: inherit;
+}
+
 
 /* section c */
 
@@ -459,5 +471,8 @@
     }
     ._menu li {
         padding: 17px 0;
+    }
+    ._absolute img {
+        display: none;
     }
 }
