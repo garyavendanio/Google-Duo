@@ -36,12 +36,12 @@ sr.reveal('._g', {
     distance: '300px',
 });
 
-window.sr = ScrollReveal();
-sr.reveal('._f', {
-    duration: 2000,
-    origin: 'right',
-    distance: '500px',
-});
+// window.sr = ScrollReveal();
+// sr.reveal('._f', {
+//     duration: 2000,
+//     origin: 'right',
+//     distance: '500px',
+// });
 
 window.sr = ScrollReveal();
 sr.reveal('._e', {
