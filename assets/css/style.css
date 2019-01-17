@@ -168,14 +168,13 @@
 
 ._absolute img {
     position: absolute;
+    display: block;
     top: 0;
-    bottom: 0;
-    margin: auto auto 50px auto;
+    margin-top: 400px;
     fill: var(--color-light);
     width: 40vw;
     opacity: .3;
     z-index: 1;
-    display: inherit;
 }
 
 
